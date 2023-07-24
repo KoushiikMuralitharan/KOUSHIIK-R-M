@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+.myDiv {
+  border: 5px outset red;
+  text-align: center;
+}
+.myDiv1 {
+  text-align: left;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 50%;
+}
+th, td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: mediumslateblue;
+}
+div{
+	
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Karpagam University</title>
+</head>
+<body >
+	<div class="myDiv">
+	<img src="C:\Users\KOUSHIK\Downloads\karpagam logo.png" alt="college logo" width="100" height="100" class="centerimg" >
+	<h2>Registration Form</h2>
+	<table border="2">
+	<form>
+		<tr> 
+		<td><lable>First Name:</lable></td>
+		<td><input type="text" id="fname" title=" your first name"></td>
+		</tr>
+		<tr>
+		<td><lable>Last Name:</lable></td>
+		<td><input type="text" id="lname" title=" your last name"></td>
+		</tr>
+	     <tr>
+		<td><label>Gender:</label></td>
+		<td><input type="radio" id="gen1"><label>male</label><input type="radio" id="gen2"><label>female</label></td>
+		</td>
+		</tr>
+		<tr>
+			<td>Date of Birth:</td>
+			<td><input type="date" id="dob"></td>
+		</tr>
+		<tr>
+		<td><lable>Department:</lable></td>
+		<td><select id="dept">
+		    <option value="" disable selected hidden >Choose</option>
+			<option value="IT">IT</option>
+			<option value="CSE">CSE</option>
+			<option value="EEE">EEE</option>
+			<option value="ECE">ECE</option>
+			<option value="CST">CST</option>
+			<option value="CSD">CSD</option>
+			<option value="CYBER">CYBER</option>
+		</select></td>
+		</tr>
+		<tr>
+		<td><label>E-Mail:</label></td>
+		<td><input type="email" id="email" title=" your email"></td>
+		</td>
+		</tr>
+	    <tr>
+		<td><label>Father's Name:</label></td>
+		<td><input type="text" id="faname" title="your father's name:"></td>
+		</td>
+		</tr>
+		<tr>
+		<td>father's Salary:</td>
+		<td><input type="text" id="fasal" title="your father's salary:"></td>
+		</tr>
+		<tr>
+		<td>father's phone number:</td>
+		<td><input type="text" id="faph" title="your father's phone number"></td>
+		</tr>
+		<tr>
+		<td><label>Mother's Name:</label></td>
+		<td><input type="text" id="moname" title="your mother's name"></td>
+		</td>
+		</tr>
+		<tr>
+		<td>mother's phone number:</td>
+		<td><input type="text" id="faph" title="your mother's phone number"></td>
+		</tr>
+		<tr>
+	    <td>Address:</td>
+		<td><textarea type="" id="add" rows="5" cols="20" title="Address"></textarea></td>
+		</tr>
+		<tr>
+		<td>
+			<label>Areas Of Interest:</label>
+			</td>
+		<td>
+		<p class="myDiv1"><input type="checkbox" id="op" >
+		<label>Operating Systems</label></p>
+		<p class="myDiv1"><input type="checkbox" id="ds">
+		<label>Data Structures</label></p>
+		<p class="myDiv1"><input type="checkbox" id="dbms">
+		<label>Database Management Systems</label></p>
+		</td>
+		</td>
+		</tr>	
+	</form>
+    </table>
+    <p> <input type="submit"></p> 
+    </div>
+
+</body>
+</html>
